@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+body{
+    background-color: hsl(218, 28%, 13%);
+    color: hsl(0, 0%, 100%);
+    width: 100vw;
+    overflow-x: hidden;
+    font-family: 'Righteous', cursive;
+}
+main{
+    width: 100vw;
+    height: fit-content;
+}
+nav{
+    display: flex;
+    width: 100vw;
+    height: fit-content;
+    align-items: center;
+    margin-top: 2em;
+}
+nav .logo{
+    margin-left: 3em;
+}
+nav .navegation{
+    position: absolute;
+    right: 3em;
+}
+nav .navegation ul{
+    display: flex;
+    gap: 2.4em;
+}
+nav .navegation ul li{
+    list-style: none;
+}
+nav .navegation ul li a{
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+}
+.home{
+    width: 100vw;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.home img{
+    width: 580px;
+}
+.home p{
+    width: 40%;
+    text-align: center;
+    font-size: 1.5em;
+}
+.home h2{
+    width: 60%;
+    text-align: center;
+    font-size: 2em;
+}
+.home button{
+    padding: .8em 7em;
+    background-color: hsl(198, 60%, 50%);
+    color: white;
+    border: none;
+    font-size: 1em;
+    font-weight: bold;
+    border-radius: 2em;
+}
